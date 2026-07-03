@@ -1,0 +1,168 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ nav{
+   display:flex;
+   justify-content: space-between;
+   background-color: aqua;
+   padding: 20px 80px;
+ }
+ nav ul li{
+   display:flex;
+   list-style: none;
+   gap:30px;
+ }
+ nav ul li a {
+   text-decoration: none;
+   font-size: 18px;
+   color:black;
+ }
+ .hero{
+   display: flex;
+   justify-content: space-between;
+ }
+ .hero-image,
+ .hero-video{
+   width:50%;
+ }
+ .hero-image img,
+ .hero-video video{
+   width:100%;
+   height:150px;
+   object-fit: cover;
+ }
+ .main{
+   height:300px;
+   width:100%;
+   background-color: bisque;
+ }
+.intro{
+   color: black;
+   text-align: center;
+   margin:0;
+   padding:20px;
+}
+.btn{
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   gap:20px;
+   
+}
+#btn1{
+   width: 150px;
+   height: 50px;
+   background-color: blue;
+   color: aliceblue;
+   font-size: 20px;
+   border-radius: 20px;
+}
+#btn2{
+   width: 150px;
+   height: 50px;
+   background-color: cadetblue;
+   color:azure;
+   font-size: 20px;
+   border-radius:20px;
+}
+.dices{
+   height:340px;
+   width:100%;
+   background-color: azure;
+   padding-top:20px;
+   display:flex;
+   justify-content: space-between;
+   padding-left:20px;
+    padding-right:20px;
+     
+    
+}
+.item{
+   padding-top:10px;
+   text-align: center;
+  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.card img{
+   width: 100%;
+    height:100px;
+    object-fit:cover;
+     
+     
+}
+.card{
+   background-color: white;
+   height: fit-content;
+   padding:30px;
+   border-radius:10px;
+   text-align: center;
+   box-shadow:0 5px 15px rgba(0,0,0,0);
+    transition:1s;
+}
+.card:hover{
+   box-shadow:10px 15px 20px rgba(33, 30, 30, 0.485);
+}
+.card button{
+   background-color: brown;
+   color:white;
+   width:80px;
+}
+.urban{
+   display:flex;
+   justify-content: center;
+   
+}
+.urban img{
+   border-radius: 40px;
+   
+}
+.urban h1{
+   font-family: fantasy;
+   padding-top:20px;
+   padding-left:10px;
+}
+.intro div{
+   padding-top:10px;
+   text-align:justify;
+}
+.intro h1{
+   font-style: oblique;
+}
+ .ftr{
+   height:200px;
+   width:100%;
+   background-color: aqua;
+   color:black;
+ }
+ .ftr2{
+   display:flex;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-left:60px;
+   padding-right:60px;
+ }
+ .ftr3{
+   padding-top: 50px;
+   text-align: center;
+ }
+ .social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.social-icons a{
+    color: black;
+    font-size: 28px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icons a:hover{
+    color: #03a7ff;
+}
+  
